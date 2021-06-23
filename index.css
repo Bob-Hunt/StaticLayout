@@ -1,32 +1,131 @@
 .wrapper {
+    height: 200vh;
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(3, 1fr);
 }
 
 
 /* Enroll */
 .enroll-container {
-    background-color: rgb(213, 231, 246);
+    display: grid;
+    grid-template-columns: 1 1fr;
+    grid-template-rows: 10fr 50fr 15fr;
+    background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckbvd0gyz00xg19mlsu9nayv7-homepage-masthead-test-desktop-3200x1320-v4c-6-16-20.jpg");
+    background-size: cover;
+}
+
+
+.enroll-header-container {
+    background: linear-gradient(to bottom, black, black, black, transparent);   ;
+}
+
+.enroll-header-container {
+    color: white;
+    display: grid;
+    grid-template-columns: 19fr 1fr;
 }
 
 .enroll-header {
     border: 2px solid blue;
 }
 
-.enroll-main {
+.enroll-main-container {
     border: 2px solid violet;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8 1fr);
+}
+
+.enroll-main {
+    color: white;
+    justify-self: center;
+}
+
+#main-2 {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+
+#main-3 {
+    /* opacity:1;  */
+    /* min-height:auto;  */
+    flex-shrink: 0; 
+    width: 40%; 
+    display: flex;
+    /* grid-template-areas: ". . image . ."; */
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(3 1fr);
+}
+
+#hulu-logo {
+    /* width: 10fr; */
+    /* padding-left: 20000px; */
+
+    flex-shrink: 0; 
+    width: 40%; 
 }
 
 .enroll-banner {
     border: 2px solid red;
+    background-color: black
+}
+
+.enroll-banner-content {
+    color: white;
 }
 
 
 /* Movies */
 .movies-container {
-    background-color: rgb(198, 209, 219);
+    background-color: black;
+}
+
+.movies-top {
+    color: white;
+}
+
+.movies-gallery-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    /* grid-gap may need adjustment */
+    grid-gap: 0.5em;
+}
+
+.movies-gallery {
+    color: white;
+}
+
+#poster-blank {
+    background-color: black;
+}
+
+#poster-1 {
+    background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckllond4i0i9w1u7ghnu91j1b-bobsburgers-category-tile-294x450-1x.jpg");
+}
+
+#poster-2 {
+    background-image: url("https://www.hulu.com/static/hitch/s3/attachments/cklms7f221g6z1u6ye8eurm1e-unitedstatesvsbillieholiday-category-tile-294x450-1x-1.jpg");
+}
+
+#poster-3 {
+    background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckllpbyhp0pww1ua273ct30sb-solaropposites-category-tile-294x450-1x-1.jpg");
+}
+
+#poster-4 {
+    background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckoku2z5l8wsx1u6rmw1cl695-ww84-category-poster-tile-294x450-2x-1.jpg");
+}
+
+.movies-bottom {
+    color: white;
 }
 
 
