@@ -1,0 +1,36 @@
+.wrapper {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: blanchedalmond;
+}
+
+
+/* Enroll */
+.enroll-container {
+    background-color: rgb(213, 231, 246);
+}
+
+.enroll-header {
+    border: 2px solid blue;
+}
+
+.enroll-main {
+    border: 2px solid violet;
+}
+
+.enroll-banner {
+    border: 2px solid red;
+}
+
+
+/* Movies */
+.movies-container {
+    background-color: rgb(198, 209, 219);
+}
+
+
+/* Plans */
+.plans-container {
+    background-color: rgb(159, 181, 200);
+}
