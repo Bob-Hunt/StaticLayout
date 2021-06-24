@@ -21,7 +21,7 @@ body {
 .enroll-container {
     display: grid;
     grid-template-columns: 1 1fr;
-    grid-template-rows: 10fr 50fr 15fr;
+    grid-template-rows: 10fr 60fr 25fr;
     background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckbvd0gyz00xg19mlsu9nayv7-homepage-masthead-test-desktop-3200x1320-v4c-6-16-20.jpg");
     background-size: cover;
 }
