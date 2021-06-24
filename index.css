@@ -1,8 +1,16 @@
+body {
+    margin: 0;
+    border: 10px solid black;
+}
+
 .wrapper {
+    background-color: black;
+    margin: 10px solid red;
     height: 200vh;
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(3, 1fr);
@@ -30,11 +38,11 @@
 }
 
 .enroll-header {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .enroll-main-container {
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8 1fr);
@@ -46,42 +54,155 @@
 }
 
 #main-2 {
-    color: #2DBD9D;
-    font-size: 12px;
-    font-weight: 600;
+    color: #2ab193;
+    font-size: 8px;
+    font-weight: bold;
     letter-spacing: 0.5px;
     line-height: 13px;
-    padding-bottom: 8px;
+    /* padding-bottom: 6px; */
 }
 
 #main-3 {
-    /* opacity:1;  */
-    /* min-height:auto;  */
+    display: flex;
     flex-shrink: 0; 
     width: 40%; 
     display: flex;
-    /* grid-template-areas: ". . image . ."; */
     grid-template-columns: repeat(3 1fr);
     grid-template-rows: repeat(3 1fr);
+    justify-items: space-around;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
-#hulu-logo {
-    /* width: 10fr; */
-    /* padding-left: 20000px; */
+#main-4 {
+    font-size: 16px;
+    font-weight: bold;
+}
 
-    flex-shrink: 0; 
-    width: 40%; 
+#main-5 {
+    font-size: 11px;
+    font-weight: lighter; 
+}
+
+#main-6 {
+    height: 50px;
+    
+}
+
+.button {
+    font-weight: bold;
+    border-radius: 3px;
+    border: 10px solid white;
+
+}
+
+#start-trial {
+    background-color: white;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    font-size: 10px;
+}
+
+#main-7 {
+    color: rgba(243, 240, 240, 0.534);
+    font-size: 7px;
+    text-align: center;
+    width: 20%;
+    padding-bottom: 20px; 
+}
+
+#main-8 {
+    
+}
+
+
+.hulu-logo {
+    justify-content: space-around;
+}
+
+
+#hulu-logo {
+    /* flex-shrink: 0;  */
+    /* padding-left: 159px; */
+    width:35%; 
 }
 
 .enroll-banner {
-    border: 2px solid red;
-    background-color: black
+    /* border: 2px solid red; */
+    background: linear-gradient(to right, rgb(2, 10, 12), rgb(10, 89, 114));
+    display: flex;
+    flex-direction: row;
 }
 
-.enroll-banner-content {
+.enroll-banner-content-left {
+    /* color: white; */
+    /* border: 2px solid green; */
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+#multi-logos {
+    width: 60%;
+    padding-left: 40px;
+}
+
+.enroll-banner-content-center-container {
+    /* border: 2px solid yellow; */
+    width: 34%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#banner-center-top {
+    color: #2ab193;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+#banner-center-middle {
+    font-weight: lighter;
+}
+
+#banner-center-bottom {
+    font-size: 8px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.664);
+    text-decoration-line: underline;
+
+}
+
+.enroll-banner-content-right-container {
+    /* border: 2px solid orange; */
+    width: 33%;
     color: white;
 }
 
+#banner-right-top {
+    padding-top: 30px;
+}
+
+#get-bundle-btn {
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    border: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+#banner-right-bottom {
+    font-size: 8px;
+    text-decoration: underline;
+}
 
 /* Movies */
 .movies-container {
@@ -90,6 +211,22 @@
 
 .movies-top {
     color: white;
+}
+
+#movies-1 {
+    color: #2ab193;
+}
+
+#movies- {
+
+}
+
+#movies-3 {
+
+}
+
+#movies-4 {
+
 }
 
 .movies-gallery-container {
@@ -106,22 +243,27 @@
 
 #poster-blank {
     background-color: black;
+    overflow: auto;
 }
 
 #poster-1 {
     background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckllond4i0i9w1u7ghnu91j1b-bobsburgers-category-tile-294x450-1x.jpg");
+    overflow: auto;
 }
 
 #poster-2 {
     background-image: url("https://www.hulu.com/static/hitch/s3/attachments/cklms7f221g6z1u6ye8eurm1e-unitedstatesvsbillieholiday-category-tile-294x450-1x-1.jpg");
+    overflow: auto;
 }
 
 #poster-3 {
     background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckllpbyhp0pww1ua273ct30sb-solaropposites-category-tile-294x450-1x-1.jpg");
+    overflow: auto;
 }
 
 #poster-4 {
     background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckoku2z5l8wsx1u6rmw1cl695-ww84-category-poster-tile-294x450-2x-1.jpg");
+    overflow: auto;
 }
 
 .movies-bottom {
