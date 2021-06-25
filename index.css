@@ -1,11 +1,12 @@
 body {
+    height: 200vh;
+    width: 100vw;
     margin: 0;
     border: 10px solid black;
 }
 
 .wrapper {
     background-color: black;
-    margin: 10px solid red;
     height: 200vh;
     margin: 0;
     padding: 0;
@@ -20,29 +21,32 @@ body {
 /* Enroll */
 .enroll-container {
     display: grid;
+    height: 85vh;
     grid-template-columns: 1 1fr;
     grid-template-rows: 10fr 60fr 25fr;
     background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckbvd0gyz00xg19mlsu9nayv7-homepage-masthead-test-desktop-3200x1320-v4c-6-16-20.jpg");
-    background-size: cover;
+    background-size: 100vw;
 }
 
 
 .enroll-header-container {
-    background: linear-gradient(to bottom, black, black, black, transparent);   ;
+    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.616), transparent);   ;
 }
 
 .enroll-header-container {
     color: white;
     display: grid;
-    grid-template-columns: 19fr 1fr;
+    grid-template-columns: 12fr 2fr;
 }
 
 .enroll-header {
-    /* border: 2px solid blue; */
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .enroll-main-container {
-    /* border: 2px solid violet; */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8 1fr);
@@ -50,7 +54,9 @@ body {
 
 .enroll-main {
     color: white;
-    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #main-2 {
@@ -59,24 +65,16 @@ body {
     font-weight: bold;
     letter-spacing: 0.5px;
     line-height: 13px;
-    /* padding-bottom: 6px; */
 }
 
 #main-3 {
     display: flex;
-    flex-shrink: 0; 
-    width: 40%; 
-    display: flex;
-    grid-template-columns: repeat(3 1fr);
-    grid-template-rows: repeat(3 1fr);
-    justify-items: space-around;
-    align-content: center;
-    justify-items: center;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #main-4 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -86,13 +84,12 @@ body {
 }
 
 #main-6 {
-    height: 50px;
-    
+    height:  100%;
 }
 
 .button {
     font-weight: bold;
-    border-radius: 3px;
+    border-radius: 2.5px;
     border: 10px solid white;
 
 }
@@ -100,15 +97,16 @@ body {
 #start-trial {
     background-color: white;
     color: black;
-    padding: 10px 10px 10px 10px;
     font-size: 10px;
+    font-weight: lighter;
 }
 
 #main-7 {
     color: rgba(243, 240, 240, 0.534);
-    font-size: 7px;
-    text-align: center;
-    width: 20%;
+    font-size: 6.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 20px; 
 }
 
@@ -118,52 +116,51 @@ body {
 
 
 .hulu-logo {
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 #hulu-logo {
-    /* flex-shrink: 0;  */
-    /* padding-left: 159px; */
-    width:35%; 
+    width:30%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .enroll-banner {
-    /* border: 2px solid red; */
-    background: linear-gradient(to right, rgb(2, 10, 12), rgb(10, 89, 114));
+    background-image: linear-gradient(to bottom right, #041318, rgb(10, 89, 114));
     display: flex;
     flex-direction: row;
 }
 
 .enroll-banner-content-left {
-    /* color: white; */
-    /* border: 2px solid green; */
     width: 33%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    padding-top: 20px;
-    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 #multi-logos {
-    width: 60%;
-    padding-left: 40px;
+    width: 80%;
 }
 
 .enroll-banner-content-center-container {
-    /* border: 2px solid yellow; */
     width: 34%;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 15px 0px 15px 0px;
 }
 
 #banner-center-top {
     color: #2ab193;
     font-size: 8px;
     font-weight: bold;
+
 }
 
 #banner-center-middle {
@@ -175,37 +172,47 @@ body {
     font-weight: lighter;
     color: rgba(255, 255, 255, 0.664);
     text-decoration-line: underline;
-
 }
 
 .enroll-banner-content-right-container {
-    /* border: 2px solid orange; */
     width: 33%;
+    height: 100%;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
+
 #banner-right-top {
-    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
 }
 
 #get-bundle-btn {
     color: white;
-    font-size: 10px;
+    font-size: 9.5px;
     font-weight: lighter;
-    border: 1px solid white;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px 10px 10px 10px;
     background-color: transparent;
-    border-radius: 3px;
+    border: 1.5px solid white;
+    border-radius: 2px;
 }
 
 #banner-right-bottom {
-    font-size: 8px;
+    color: rgba(255, 255, 255, 0.493);
+    padding-top: 5px;
+    font-size: 6.5px;
     text-decoration: underline;
 }
 
 /* Movies */
 .movies-container {
+    height: 65vh;
     background-color: black;
 }
 
@@ -272,6 +279,6 @@ body {
 
 
 /* Plans */
-.plans-container {
+/* .plans-container {
     background-color: rgb(159, 181, 200);
-}
+} */
