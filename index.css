@@ -258,6 +258,7 @@ body {
     padding-top: 20px;
     font-size: 13px;
     font-weight: lighter;
+    opacity: 0.9;
 
 }
 
@@ -268,6 +269,7 @@ body {
     padding-top: 5px;
     font-size: 13px;
     font-weight: lighter;
+    opacity: 0.9;
 
 }
 
@@ -283,17 +285,18 @@ body {
 .movies-gallery{
     color: white;
     height: 57vh;
-    opacity: 0.6;
     display: flex;
     flex-direction: row;
     margin: 0px;
     /* position: absolute; */
     overflow: hidden;
     flex-shrink: 1;
-    max-width: 25%
+    max-width: 25%;
     /* min-width: 20%; */
     /* min-height: 100%; */
    /* justify-content: around; */
+    /* position: relative;
+    text-align: center; */
 }
 
 #poster-blank-left {
@@ -311,8 +314,11 @@ body {
 }
 
 .img {
-    opacity: 65%;
-    display: flex;
+    /* opacity: 95%; */
+    opacity: 0.7;
+
+    /* display: flex; */
+
     /* border: 10px solid rgb(204, 25, 25); */
 
     /* margin: 100px, 150px, 100px, 150px; */
@@ -356,6 +362,44 @@ body {
     
 }
 
+.caption {
+    position: absolute;
+    top: 8px;
+    
+}
+
+#cap-1 {
+    position: absolute;
+    left: 50px;
+}
+
+#cap-2 {
+    position: absolute;
+    left: 272px;
+}
+
+#cap-3 {
+    position: absolute;
+    left: 490px;
+}
+
+#cap-4 {
+    position: absolute;
+    left: 710px;
+}
+
+.cap-top {
+    opacity: .75;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.cap-bottom {
+   font-weight: bolder; 
+   color: white;
+}
+
+
 .movies-bottom-container {
     /* height: 50vh; */
     color: rgba(255, 255, 255, 0.561);
@@ -363,7 +407,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     align-content: space-around;
-    margin-top: 300px;
+    margin-top: 308px;
     margin-right: 100px;
 }
 
