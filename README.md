@@ -1,8 +1,9 @@
 # Static Layout
 
 Due: Jul 1 at 11:59pm
-Calendar	WD 94 6-14-21 Gold PT
----
+
+Calendar:	WD 94 6-14-21 Gold PT
+------
 ## Details	
 
 ### Instructions:
@@ -45,11 +46,11 @@ Real Site Image 1,   downloadReal Site Image 2  download  | Recreation  (Links t
 ### Website List
 Here are a few sites we think would be good to tackle: 
 
-https://www.kastapp.co/ (Links to an external site.)
-https://www.wizardingworld.com/ (Links to an external site.)
-https://www.starwars.com/ (Links to an external site.)
-https://www.hulu.com/welcome (Links to an external site.)
-https://elevenfifty.org/ (Links to an external site.)
+* https://www.kastapp.co/ (Links to an external site.)
+* https://www.wizardingworld.com/ (Links to an external site.)
+* https://www.starwars.com/ (Links to an external site.)
+* https://www.hulu.com/welcome (Links to an external site.)
+* https://elevenfifty.org/ (Links to an external site.)
 ***If you want to use another site, it MUST be approved by an instructor***
 
  
