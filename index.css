@@ -119,17 +119,11 @@ body {
     padding-bottom: 20px; 
 }
 
-#main-8 {
-    
-}
-
-
 .hulu-logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 #hulu-logo {
     width:30%; 
@@ -193,7 +187,6 @@ body {
     justify-content: center;
     align-items: flex-end;
 }
-
 
 #banner-right-top {
     display: flex;
@@ -302,10 +295,6 @@ body {
     width: 6vw;
 }
 
-#poster-1 {
-
-}
-
 .img {
     opacity: 0.7;
 }
@@ -327,15 +316,6 @@ body {
 
 #img-4 {
     border-left: 15px solid black;
-}
-
-
-#poster-2 {
-    
-}
-
-#poster-3 {
-    
 }
 
 #poster-4 {
@@ -377,7 +357,6 @@ body {
    font-weight: bolder; 
    color: white;
 }
-
 
 .movies-bottom-container {
     color: rgba(255, 255, 255, 0.561);
