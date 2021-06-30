@@ -1,10 +1,11 @@
-Static Layout
+# H1 Static Layout
+
 Due: Jul 1 at 11:59pm
 Calendar	WD 94 6-14-21 Gold PT
 
-Details	
+## H2 Details	
 
-Instructions:
+### H3 Instructions:
 For this assignment, you will need to recreate a static website from the list below. You will use only HTML & CSS to accomplish this (no JavaScript).
 
 You will recreate up to two times the view-height of the screen which is equivalent to two scroll worths of your screen. You do not have to recreate the entire website. 
@@ -13,7 +14,7 @@ See below for more specific requirements for this project.
 
  
 
-Requirements:
+### H3 Requirements:
 Choose from one of the provided websites.
 
 Use HTML5 & CSS to recreate the layout for the page as closely as possible
@@ -34,14 +35,14 @@ The student does not have to recreate more than 2 times the view-height of the s
 
  
 
-Example
+### H3 Example
 Here’s an example of a layout recreation :
 
 Real Site Image 1,   downloadReal Site Image 2  download  | Recreation  (Links to an external site.)
 
  
 
-Website List
+### H3 Website List
 Here are a few sites we think would be good to tackle: 
 
 https://www.kastapp.co/ (Links to an external site.)
@@ -53,12 +54,12 @@ https://elevenfifty.org/ (Links to an external site.)
 
  
 
-Submission Guidelines:
+### H3 Submission Guidelines:
 Submit the GitHub Pages url of the deployed application.
 
  
 
-Plagiarism
+### H3 Plagiarism
 Most importantly, this project should be your code. We urge you to use your resources to learn more about HTML and CSS to achieve your desired product.
 
 However, this project must contain code you wrote and understand. 
