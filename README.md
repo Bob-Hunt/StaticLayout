@@ -2,7 +2,7 @@
 
 Due: Jul 1 at 11:59pm
 Calendar	WD 94 6-14-21 Gold PT
-
+---
 ## Details	
 
 ### Instructions:
@@ -15,23 +15,23 @@ See below for more specific requirements for this project.
  
 
 ### Requirements:
-Choose from one of the provided websites.
+- Choose from one of the provided websites.
 
-Use HTML5 & CSS to recreate the layout for the page as closely as possible
+- Use HTML5 & CSS to recreate the layout for the page as closely as possible
 
-Any buttons on the page must open to a blank tab.
+- Any buttons on the page must open to a blank tab.
 
-Any links referring another section on the page must go to that section.
+- Any links referring another section on the page must go to that section.
 
-The finished project must be deployed to Github Pages 
+- The finished project must be deployed to Github Pages 
 
-The site must utilize animation if it is present on the page
+- The site must utilize animation if it is present on the page
 
-The site must utilize CSS Grid or Flexbox on at least one (1) section
+- The site must utilize CSS Grid or Flexbox on at least one (1) section
 
-It does not need to be entirely responsive
+- It does not need to be entirely responsive
 
-The student does not have to recreate more than 2 times the view-height of the screen
+- The student does not have to recreate more than 2 times the view-height of the screen
 
  
 
