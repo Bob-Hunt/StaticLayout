@@ -329,22 +329,22 @@ body {
 
 #cap-1 {
     position: absolute;
-    left: 50px;
+    left: 85px;
 }
 
 #cap-2 {
     position: absolute;
-    left: 272px;
+    left: 370px;
 }
 
 #cap-3 {
     position: absolute;
-    left: 490px;
+    left: 645px;
 }
 
 #cap-4 {
     position: absolute;
-    left: 910px;
+    left: 920px;
 }
 
 .cap-top {
@@ -364,8 +364,8 @@ body {
     justify-content: flex-end;
     align-items: center;
     align-content: space-around;
-    margin-top: 308px;
-    margin-right: 100px;
+    margin-top: 375px;
+    margin-right: 200px;
 }
 
 #bottom-content-5{
