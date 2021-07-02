@@ -275,20 +275,24 @@ body {
     justify-content: space;
 }
 
+.movie-gal-row {
+    width: 100%;
+}
+
 .movies-gallery{
     color: white;
     height: 57vh;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     margin: 0px;
     overflow: hidden;
     flex-shrink: 1;
-    max-width: 25%;
+    max-width: 20%;
 }
 
 #poster-blank-left {
     background-color: black;
-    width: 6vw;
+    width: 150px;
 }
 
 #poster-blank-right {
@@ -302,25 +306,32 @@ body {
 
 #img-1 {
     border-right: 5px solid black;
+    margin-left: 25px;
 }
 
 #img-2 {
     border-right: 5px solid black;
-    border-left: 15px solid black;
+    border-left: 5px solid black;
+    margin-left: 25px;
+
 }
 
 #img-3 {
     border-right: 5px solid black;
-    border-left: 15px solid black;
+    border-left: 5px solid black;
+    margin-left: 25px;
+
 
 }
 
 #img-4 {
-    border-left: 15px solid black;
+    border-left: 5px solid black;
+    margin-left: 25px;
+
 }
 
 #poster-4 {
-  display: flex;
+  /* display: flex; */
 }
 
 .caption {
@@ -330,22 +341,22 @@ body {
 
 #cap-1 {
     position: absolute;
-    left: 115px;
+    left: 200px;
 }
 
 #cap-2 {
     position: absolute;
-    left: 450px;
+    left: 440px;
 }
 
 #cap-3 {
     position: absolute;
-    left: 760px;
+    left: 660px;
 }
 
 #cap-4 {
     position: absolute;
-    left: 1080px;
+    left: 880px;
 }
 
 .cap-top {
@@ -362,11 +373,13 @@ body {
 .movies-bottom-container {
     color: rgba(255, 255, 255, 0.561);
     display: flex;
-    justify-content: flex-end;
+    padding-top: 180px;
+    padding-left: 870px;
+    /* justify-content: flex-end;
     align-items: center;
-    align-content: space-around;
-    margin-top: 375px;
-    margin-right: 200px;
+    align-content: space-around; */
+    /* margin-top: 375px;
+    margin-right: 200px; */
 }
 
 #bottom-content-5{
